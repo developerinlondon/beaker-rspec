@@ -12,11 +12,10 @@ end
 
 beaker_version = ENV['BEAKER_VERSION']
 
-if beaker_version
-  gem 'beaker', *location_for(beaker_version)
-else
-  gem 'beaker'
-end
+# if beaker_version
+#   gem 'beaker', *location_for(beaker_version)
+# else
+#   gem 'beaker'
+# end
 
-
-gemspec
+gem 'beaker', :github => 'developerinlondon/beaker', :branch => 'master', :require => false

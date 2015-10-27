@@ -26,3 +26,5 @@ The following environment variables can be used to influence how beaker works:
 * `BEAKER_destroy`: set to `no` to keep the VMs after the test run. Set to `onpass` to keep the VMs around only after a test failure. 
 
 For details on the specific mappings, the [setup code](https://github.com/puppetlabs/beaker-rspec/blob/master/lib/beaker-rspec/spec_helper.rb#L26-L32) and the [beaker docs](https://github.com/puppetlabs/beaker/wiki/The-Command-Line).
+
+CUSTOM VERSION BY NAYEEM
